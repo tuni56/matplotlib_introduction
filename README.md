@@ -43,6 +43,8 @@ plt.legend()
 plt.grid()
 plt.show()
 📸 Output Preview
+![starting_matplotlib](https://github.com/user-attachments/assets/665a7bb5-c903-4f51-9697-eb1f503f53c3)
+
 
 🎯 How to Run
 Install dependencies:
