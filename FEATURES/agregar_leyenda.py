@@ -6,12 +6,15 @@ pl.figure(figsize=(8, 6), dpi=80)
 pl.subplot(1, 1, 1)
 X = np.linspace(-np.pi, np.pi, 256, endpoint=True)
 C, S = np.cos(X), np.sin(X)
-# En uno de los parámetros puedo especificar el color y el grosor de la línea para la gráfica en este caso elijo Rojo "Red"
-# y Grosor 2, el parámetro LineStyle define el tipo de Linea. En estecaso voy a elegir -. para que se diferencie con la
-# segunda gráfica
-pl.plot(X, C, color="Red", linewidth=2.0, linestyle="-.")
-# Voy a cambiar de la segunda gráfica el color a Amarillo, Yellow y el Grosor de la Línea a 4, tipor de línea -.
-pl.plot(X, S, color="Yellow", linewidth=4.0, linestyle="-")
+# En uno de los parámetros puedo especificar el color y el grosor de l
+a línea para la gráfica en este caso elijo Rojo "Red"
+# y Grosor 2, el parámetro LineStyle define el tipo de Linea. En este
+caso voy a elegir -. para que se diferencie con la
+# segunda gráfica. Agrego el Parámetro Label para luego mostrar en la leyenda
+pl.plot(X, C, color="Red", linewidth=2.0, linestyle="-.", label="Función Coseno")
+# Voy a cambiar de la segunda gráfica el color a Amarillo, Yellow y elGrosor de la Línea a 4, tipor de línea -.
+#Agrego el parámetro label para luego mostrar la leyenda
+pl.plot(X, S, color="Yellow", linewidth=4.0, linestyle="-", label="Función Seno")
 #Configuro los Spines de la siguiente manera
 ax = pl.gca()
 ax.spines['right'].set_color('none')
@@ -28,5 +31,6 @@ pl.xticks(np.linspace(-4, 4, 9, endpoint=True))
 pl.ylim(-1.0, 1.0)
 # Ticks en y Con yticks puedo cambiar la graduación del eje
 pl.yticks(np.linspace(-1, 1, 5, endpoint=True))
+pl.legend(loc='upper left')
 # Muestro el Resultado por Pantalla
 pl.show()
