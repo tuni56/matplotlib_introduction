@@ -1,7 +1,8 @@
-📊 Visualizing Sine and Cosine with Matplotlib
+# 📊 Visualizing Sine and Cosine with Matplotlib
+
 Want to bring trigonometry to life? With Matplotlib, you can easily plot the sine and cosine functions on the same graph, creating an intuitive visualization of their periodic nature.
 
-📖 Table of Contents
+# 📖 Table of Contents
 🚀 About This Project
 📜 Code Preview
 📸 Output Preview
