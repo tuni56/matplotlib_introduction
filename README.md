@@ -87,6 +87,6 @@ This project is open-source and available under the MIT License.
 
 📩 Contact
 💬 Got questions or suggestions? Feel free to reach out:
-📧 Email: tunidev56@gmail.com
-🔗 GitHub Profile: https://github.com/tuni56
+- 📧 Email: tunidev56@gmail.com
+- 🔗 GitHub Profile: https://github.com/tuni56
 
