@@ -3,15 +3,15 @@
 Want to bring trigonometry to life? With Matplotlib, you can easily plot the sine and cosine functions on the same graph, creating an intuitive visualization of their periodic nature.
 
 # 📖 Table of Contents
-🚀 About This Project
-📜 Code Preview
-📸 Output Preview
-🎯 How to Run
-🚀 Future Improvements
-🤝 Contributing
-📜 License
-📩 Contact
-🚀 About This Project
+- 🚀 About This Project
+- 📜 Code Preview
+- 📸 Output Preview
+- 🎯 How to Run
+- 🚀 Future Improvements
+- 🤝 Contributing
+- 📜 License
+- 📩 Contact
+- 🚀 About This Project
 This repository contains a simple yet powerful Python script that:
 ✅ Plots the sine and cosine functions over a defined range
 ✅ Uses Matplotlib for high-quality graph rendering
