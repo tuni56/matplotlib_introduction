@@ -67,7 +67,7 @@ Steps to Contribute:
 Fork this repository 🍴
 Clone your forked repo
 
-git clone https://github.com/your-username/sine-cosine-plot.git
+git clone https://github.com/your-username/matplotlib_introduction.git
 cd sine-cosine-plot
 Create a new branch
 
